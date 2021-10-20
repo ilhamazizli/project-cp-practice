@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="CRM Application Test Automation">
+    <test name="CRM App Test cases">
+        <classes>
+            <class name="com.ilham.cpsat.tests.LoginPageTest"></class>
+            <class name="com.ilham.cpsat.tests.HomePageTest"></class>
+            <!--            <class name="com.ilham.cpsat.tests.ContactsPageTest"></class>-->
+
+
+        </classes>
+    </test>
+
+
+</suite>
