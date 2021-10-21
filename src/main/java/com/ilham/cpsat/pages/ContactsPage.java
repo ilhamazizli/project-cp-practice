@@ -34,8 +34,6 @@ public class ContactsPage extends TestBase {
     }
 
     public void createNewContact() {
-        //https://www.youtube.com/watch?v=H2-3w-GQZ3g&list=PLFGoYjJG_fqq6cHeqfsDes3pdVh3kpl74&index=5
-        //12 50
 
 
     }
