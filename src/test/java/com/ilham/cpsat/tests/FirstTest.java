@@ -1,6 +1,8 @@
 package com.ilham.cpsat.tests;
 
+import com.ilham.cpsat.constants.ProjectConstants;
 import com.ilham.cpsat.runner.TestNGRunner;
+import com.ilham.cpsat.util.ExcelReader;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -19,10 +21,20 @@ public class FirstTest extends TestNGRunner {
 
     }
 
-    @Test
+    // @Test
     public void navigateToUrl() {
         driver.get("https://google.com");
         logger.info("Browser open...");
         //driver.close();
     }
+
+    @Test
+    public void writeExcelTest() {
+        ExcelReader.writeData(ProjectConstants.TEST_DATA_SHEET_PATH, "Employees", 1, 0, "Hitesh");
+        ExcelReader.writeData(ProjectConstants.TEST_DATA_SHEET_PATH, "Employees", 1, 1, "Manush");
+        ExcelReader.writeData(ProjectConstants.TEST_DATA_SHEET_PATH, "Employees", 1, 2, "dev");
+
+    }
+
+
 }

@@ -7,13 +7,9 @@ public class ProjectConstants {
     public static final String URL = "https://freecrm.com/";
     public static final String URL_GAS = "https://www.calculator.net/gas-mileage-calculator.html";
     public static final int DEFAULT_SECOND = 500;
-    public static final int SECONDS = 30;
-
-
-
 
     public static final String BROWSER_NAME = "chrome";
-    public static final String TEST_DATA_SHEET_PATH = USER_DIR.concat("\\src\\test\\resources\\test-data\\GasMileageData.xlsx");
+    public static final String TEST_DATA_SHEET_PATH = USER_DIR.concat("\\src\\test\\resources\\test-data\\ExcelData.xlsx");
 
     public static final double CURRENT_ODO = 123000.00;
     public static final double PREVIOUS_ODO = 122000.00;
